@@ -32,3 +32,16 @@ body{
 .service{
     padding: 10vh 0vw 0vh 0vw;
 }
+.font{
+    font-size: 0.9rem;
+}
+h6{
+    font-weight: bold;
+}
+.con{
+    margin-left: 1vw;
+    margin-right: 1vw
+}
+.con p{
+    display: none;
+}
