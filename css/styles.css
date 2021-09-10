@@ -55,3 +55,12 @@ input{
 .down{
     margin-bottom: 4vh;
 }
+input, textarea{
+
+    background: transparent;
+}
+.bg-three{
+    color: white;
+}
+    
+    
