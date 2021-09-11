@@ -42,8 +42,12 @@ $(document).ready(function(){
                 var email = $("#email").val();
                 var text = $("#textarea").val();
                 var output = [];
-                var output = output.concat(name, email, text);
-                console.log(output)
+                var outputs = output.concat(name, email, text);
+                //console.log(output)
+                var sent = output.map(function(output){
+                       return output += 1;
+                });
+                console.log(sent)
         });
 });
 
