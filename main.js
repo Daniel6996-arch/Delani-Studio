@@ -36,5 +36,11 @@ $(document).ready(function(){
                 $(".showTwo").toggle();
                 $(".hideTwo").hide();
         });
+        $("form#add").submit(function(event) {
+                event.preventDefault();
+                var number1 = $("#name").val();
+                var number2 = $("#email").val();
+                $("#output").text(result);
+        });
 });
 
