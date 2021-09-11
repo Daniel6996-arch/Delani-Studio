@@ -50,7 +50,7 @@ h6{
     margin-top: 1vw;
 }*/
 input{
-    width: 40vw;
+    width: 50vw;
 }
 .down{
     margin-bottom: 4vh;
@@ -62,5 +62,9 @@ input, textarea{
 .bg-three{
     color: white;
 }
-    
+.down img{
+    width: 18vw;
+    height: 14vw;
+    margin-top: 1vh;
+}
     

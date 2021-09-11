@@ -10,5 +10,6 @@ $(document).ready(function(){
         $(".bg-three").css("background-image","url("+ imageUrlTwo +")");
         $(".bg-three").css("background-position","center");
         $(".bg-three").css("background-repeat","no-repeat");
+        $(".soci").css("display", "none");
 
     });
