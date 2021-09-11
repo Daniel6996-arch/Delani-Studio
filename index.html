@@ -11,14 +11,14 @@
     <script src="main.js"></script>
     <title>Delani studio</title>
 </head>
-<body>
+<body class="sender">
     <div class="contain bg-one">
         <section class="align-cen">
             <img src="assets/logo/logo.png" alt="Delani">
             <h2>WELCOME</h2>
             <h2>TO DELANI STUDIO</h2>
             <p class="font-size">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN DEVELOPMENT</p>
-            <img class="bottom" src="assets/mouse_click.png">
+            <a href="destination.html" target="_blank"><img class="bottom" src="assets/mouse_click.png"></a>
         </section>
     </div>
     <div class="container">
@@ -92,7 +92,8 @@
     </div>
     <div class="contain bg-three">
         <h1>CONTACT US</h1>
-        <form class="contain">
+        <p id="senderName"></p>
+        <form class="contain" id="add" action="destination.html">
             <div class="col-md">
                 <input type="text" id="name" placeholder="Name...">
             </div>

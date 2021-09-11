@@ -38,9 +38,12 @@ $(document).ready(function(){
         });
         $("form#add").submit(function(event) {
                 event.preventDefault();
-                var number1 = $("#name").val();
-                var number2 = $("#email").val();
-                $("#output").text(result);
+                var name = $("#name").val();
+                var email = $("#email").val();
+                var text = $("#textarea").val();
+                var output = [];
+                var output = output.concat(name, email, text);
+                console.log(output)
         });
 });
 
