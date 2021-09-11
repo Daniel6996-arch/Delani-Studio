@@ -72,7 +72,8 @@ input, textarea{
 .align-cen img{
     cursor: pointer;
 }
-.font-size{
+.font-size, h5{
     font-size: 0.7rem;
 }
+
     
