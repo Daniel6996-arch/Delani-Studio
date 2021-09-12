@@ -1,10 +1,11 @@
 # **Delani Studio**
 ## Description
-#### {This is an application that assigns a user an Akan name according to the day of week they were born} {10/9/2021}
+#### {This is an application is a landing page for Delani Studios.} {10/9/2021}
 #### Authored By **{Daniel6996-arch}**
 ## Behavior-Driven Development
-*The app must be able to take input from the user.      
-*The app should be able to validated user's input.    
+*The app should show Delani Studio landing page.
+*The app should take information from the form.
+*The app should post the information to mail chimp API.   
 ## link
 https://daniel6996-arch.github.io/Delani-Studio/
 ## Setup/Installation Requirements
