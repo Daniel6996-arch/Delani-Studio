@@ -74,7 +74,7 @@ $(document).ready(function(){
                         alert('Invalid email!');
                         return;
                 }else{
-                        alert(name + ' ' +'your message have been received!');
+                        alert(name + ' ' +'we have received your message. Thankyou for reaching out to us.');
                 };
                 //$(".output").text(outputs);
                 console.log(outputs)
