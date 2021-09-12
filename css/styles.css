@@ -57,6 +57,7 @@ input{
 }
 input, textarea, button{
     background: transparent;
+    color: white;
 }
 .bg-three{
     color: white;
@@ -66,7 +67,7 @@ input, textarea, button{
     height: 14vw;
     margin-top: 1vh;
 }
-.row{
+.row, .social img{
     cursor: pointer;
 }
 .align-cen img, button{
@@ -91,6 +92,11 @@ button:hover{
 }
 #add{
     padding-bottom: 2vw;
+}
+.output{
+    background-color: blue;
+    border: 2px solid black;
+    height: 100px;
 }
 
 
