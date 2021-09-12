@@ -66,6 +66,7 @@ input, textarea, button{
     width: 18vw;
     height: 14vw;
     margin-top: 1vh;
+    padding-bottom: 0vh;
 }
 .row, .social img{
     cursor: pointer;
@@ -98,6 +99,19 @@ button:hover{
     border: 2px solid black;
     height: 100px;
 }
-
+.hover{
+    position: relative;
+    bottom: 13vw;
+    color: rgb(15, 14, 14);
+    background-color: white;
+    height: 12vw;
+    padding-top: 4vw;
+    margin-left: 1vw;
+    opacity: 0.5;
+    display: none;
+}
+.hover h1{
+    font-size: 2.5vw;
+}
 
     
