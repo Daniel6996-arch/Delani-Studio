@@ -78,6 +78,7 @@ input, textarea, button{
 button{
     width: 20vw;
     text-align: center;
+    margin-top: 1vw;
 }
 button:hover{
     background-color: black;
@@ -88,7 +89,9 @@ button:hover{
     flex-direction: column;
     align-items: center;
 }
-
+#add{
+    padding-bottom: 2vw;
+}
 
 
     
