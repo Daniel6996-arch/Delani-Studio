@@ -42,15 +42,19 @@ $(document).ready(function(){
                 var email = $("#email").val();
                 var text = $("#textarea").val();
                 var output = [];
-                var backs = 0
                 var outputs = output.concat(name, email, text);
-                if(name == '' || email == ''){
-                        alert('Empty form!')
+                if(name == ''){
+                        alert('Empty name!');
+                        return;
+                }if(email == ''){
+                        alert('Invalid email!');
+                        return;
                 }else{
-                        alert(name + ' ' +'your message have been received!')
-                }
+                        alert(name + ' ' +'your message have been received!');
+                };
                 //$(".output").text(outputs);
-                //console.log(outputs)
+                console.log(outputs)
+                location.reload();
         });
 });
 
