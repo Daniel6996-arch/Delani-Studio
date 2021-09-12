@@ -47,7 +47,7 @@ $(document).ready(function(){
                 var sent = output.map(function(output){
                        return output += 1;
                 });
-                console.log(sent)
+                console.log(sent);
         });
 });
 
