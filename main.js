@@ -12,6 +12,30 @@ $(document).ready(function(){
         $(".bg-three").css("background-position","center");
         $(".bg-three").css("background-repeat","no-repeat");
         $(".soci").css("display", "none");
+        $(".pOne").hover(function(){
+                $(".hover").toggle();
+        });
+        $(".pTwo").hover(function(){
+                $(".hover2").toggle();
+        });
+        $(".pThree").hover(function(){
+                $(".hover4").toggle();
+        });
+        $(".pFour").hover(function(){
+                $(".hover5").toggle();
+        });
+        $(".pFive").hover(function(){
+                $(".hover6").toggle();
+        });
+        $(".pSix").hover(function(){
+                $(".hover7").toggle();
+        });
+        $(".pSeven").hover(function(){
+                $(".hover8").toggle();
+        });
+        $(".pEight").hover(function(){
+                $(".hover9").toggle();
+        });
         $(".show"). click(function(){
                 $(".hide").toggle();
                 $(".show").hide();
