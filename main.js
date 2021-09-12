@@ -44,13 +44,13 @@ $(document).ready(function(){
                 var output = [];
                 var backs = 0
                 var outputs = output.concat(name, email, text);
+                if(name == '' || email == ''){
+                        alert('Empty form!')
+                }else{
+                        alert(name + ' ' +'your message have been received!')
+                }
                 //$(".output").text(outputs);
                 //console.log(outputs)
-                for (var index=0; index <= outputs.length -1; index += 1){
-                             console.log(outputs[index])
-                            // $(".output").text(outputs[index]);
-                    };
-                   // console.log(outputs[index])
         });
 });
 
